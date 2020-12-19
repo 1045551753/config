@@ -1,0 +1,16 @@
+spring:
+  profiles:
+#  active: dev
+    active: online
+
+#测试
+  spring:
+  application:
+    name: test
+  profiles: dev
+
+# 线上
+spring:
+  application:
+    name: online
+  profiles: online
